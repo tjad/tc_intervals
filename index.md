@@ -1,6 +1,6 @@
 ---
-title       : Testing Confidence Intervals
-subtitle    : The app to gain confidence in confidence intervals
+title       : Nature of confidence intervals
+subtitle    : A place to play and understand confidence intervals
 author      : Tjad I Clark
 job         : Software Engineer
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -26,7 +26,7 @@ We guarantee that you will obtain a better understanding of confidence intervals
 
 ## Introduction
 
-You're a brilliant minded data scientist, making great assumptions to start you off on the right foot with regards to your data distribution, however, you may get flashbacks to the day you sat in math class explaining to the teacher how you just "knew" your answer, it's not good enough and you will be faced with the problem of having to prove your statement "I'm 100% confident", or rather 95% confident, about where the data lie within your distribution.
+You're a brilliant minded data scientist, making great assumptions to start you off on the right foot with regards to your data distribution, however, you may get flashbacks to the day you sat in math class explaining to the teacher how you just "knew" your answer, it's not good enough and you will be faced with the problem of having to prove your statement "I'm 100% confident", or rather 95% confident, about where the data lie within your distribution. But wait.. What does that even mean?
 
 Enter the confidence interval, your most valuable tool for backing up your statement of confidence to anyone.
 
@@ -51,3 +51,4 @@ The confidence interval is based on a number of variables within your distributi
 **Confidence**: A measure of confidence you would like to have that a particular data estimate (in our case the mean) will fall within the calculated interval of your distribution - i.e the confidence interval.
 
 Get started in understanding the interactions between these variables right away by using our shiny app now!
+[https://tjad.shinyapps.io/shiny_app/](https://tjad.shinyapps.io/shiny_app/)

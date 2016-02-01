@@ -1,6 +1,6 @@
 ---
-title       : Testing Confidence Intervals
-subtitle    : The app to gain confidence in confidence intervals
+title       : Nature of confidence intervals
+subtitle    : A place to play and understand confidence intervals
 author      : Tjad I Clark
 job         : Software Engineer
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -68,3 +68,4 @@ The confidence interval is based on a number of variables within your distributi
 **Confidence**: A measure of confidence you would like to have that a particular data estimate (in our case the mean) will fall within the calculated interval of your distribution - i.e the confidence interval.
 
 Get started in understanding the interactions between these variables right away by using our shiny app now!
+[https://tjad.shinyapps.io/shiny_app/](https://tjad.shinyapps.io/shiny_app/)
