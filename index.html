@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Testing Confidence Intervals</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Testing Confidence Intervals">
+  <meta name="author" content="Tjad I Clark">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Testing Confidence Intervals</h1>
+    <h2>The app to gain confidence in confidence intervals</h2>
+    <p>Tjad I Clark<br/>Software Engineer</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>About</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Welcome to the tool that will instill confidence in your understanding about confidence intervals!</p>
+
+<p>Lack the confidence in your distributions? Never fear!</p>
+
+<p>We have knit together a shiny application allowing one to play around with the concept of confidence intervals by means of entering the required values
+in order to calculate such an interval.</p>
+
+<p>We guarantee that you will obtain a better understanding of confidence intervals by exposing yourself to our application.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>You&#39;re a brilliant minded data scientist, making great assumptions to start you off on the right foot with regards to your data distribution, however, you may get flashbacks to the day you sat in math class explaining to the teacher how you just &quot;knew&quot; your answer, it&#39;s not good enough and you will be faced with the problem of having to prove your statement &quot;I&#39;m 100% confident&quot;, or rather 95% confident, about where the data lie within your distribution.</p>
+
+<p>Enter the confidence interval, your most valuable tool for backing up your statement of confidence to anyone.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Sample</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>With our application you are able to play around with  various variables in order to generate a normal distribution as follows. Note that the distribution contains two red lines portraying your confidence interval.</p>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Variables</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The confidence interval is based on a number of variables within your distribution and can vary between distribution families. We apply confidence intervals to the normal distribution as it tends to serve most useful in that any distribution with a well defined mean pertains to the central limit theorem forming a normal distribution after enough repititions of the distribution.</p>
+
+<p><strong>Mean</strong>: This is the most central point within your distribution and is used as an estimator from which to base your alternative data points around.</p>
+
+<p><strong>Standard deviation</strong>: Is a measure of variability within your distribution - this is the reason you require a confidence interval.</p>
+
+<p><strong>Confidence</strong>: A measure of confidence you would like to have that a particular data estimate (in our case the mean) will fall within the calculated interval of your distribution - i.e the confidence interval.</p>
+
+<p>Get started in understanding the interactions between these variables right away by using our shiny app now!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='About'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Introduction'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Sample'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Variables'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
